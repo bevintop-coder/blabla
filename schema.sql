@@ -1,0 +1,13 @@
+CREATE TABLE urls(
+
+id INT PRIMARY KEY AUTO_INCREMENT,
+
+original_url VARCHAR(500),
+
+short_code VARCHAR(20),
+
+clicks INT DEFAULT 0,
+
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+
+);
